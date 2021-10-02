@@ -1,9 +1,11 @@
 tasks:
-  - command: |
+  - init: |
       brew install aws-vault
       curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip" 
-      unzip awscliv2.zip 
-      sudo ./aws/install
+      sudo mv ./awscliv2.zip /bin
+      unzip /bin/awscliv2.zip 
+      sudo /bin/aws/install
+  - command: |
       aws-vault add default --backend=file 
       aws-vault open 
       aws-vault login default --backend=file 
