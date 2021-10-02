@@ -9,3 +9,6 @@ tasks:
       aws-vault add default --backend=file 
       aws-vault open 
       aws-vault login default --backend=file 
+github:
+  prebuilds:
+    master: true
