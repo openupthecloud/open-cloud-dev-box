@@ -1,5 +1,6 @@
 tasks:
   - command: |
+      AWS_DEFAULT_REGION=us-east-1
       brew install aws-vault
       curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip" 
       sudo mv ./awscliv2.zip /bin
