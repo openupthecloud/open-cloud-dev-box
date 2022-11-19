@@ -2,7 +2,7 @@
 
 ## What? 
 
-Open Cloud Dev Box is a project 
+Open Cloud Dev Box is a project that makes learning cloud easier. By having a preconfigured, isolated development environment, you're safe to explore, play and learn the cloud without worrying about breaking your machine. Configured with all the tools you'd need, everything from Terraform 
 
 ## Motivations
 
@@ -16,3 +16,13 @@ Open Cloud Dev Box is configured to work across platform / standards:
 2. [.gitpod.yml](https://www.gitpod.io/docs/references/gitpod-yml)
 3. [devfile](https://devfile.io)
 4. [Score Dev](https://score.dev)
+
+## Backlog / Roadmap 
+
+- [ ] Wizard Configuration Setup
+- [ ] Authentication flow for AWS
+- [ ] Authentication flow for GCP
+- [ ] Authentication flow for Azure
+- [ ] Install Terraform 
+- [ ] Install KubeCTL
+- [ ] Install AWS CLI
