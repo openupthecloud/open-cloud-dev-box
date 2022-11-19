@@ -7,6 +7,7 @@ Open Cloud Dev Box is a project that makes learning cloud easier. By having a pr
 ## Motivations
 
 1. Waste less time setting up 
+2. Security in by design
 
 ## Configurations
 
@@ -26,3 +27,4 @@ Open Cloud Dev Box is configured to work across platform / standards:
 - [ ] Install Terraform 
 - [ ] Install KubeCTL
 - [ ] Install AWS CLI
+- [ ] 1Password secrets integration
