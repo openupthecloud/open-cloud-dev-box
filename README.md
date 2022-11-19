@@ -6,8 +6,10 @@ Open Cloud Dev Box is a project that makes learning cloud easier. By having a pr
 
 ## Motivations
 
-1. Waste less time setting up 
-2. Security in by design
+1. No more wasted time setting up your environment
+2. No more broken environments
+3. Secure, by default
+4. Extensible and personalisable
 
 ## Configurations
 
