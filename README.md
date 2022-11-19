@@ -20,7 +20,7 @@ Open Cloud Dev Box is configured to work across platform / standards:
 3. [devfile](https://devfile.io)
 4. [Score Dev](https://score.dev)
 
-## Backlog / Roadmap 
+## Backlog / Roadmap 
 
 - [ ] Wizard Configuration Setup
 - [ ] Authentication flow for AWS
