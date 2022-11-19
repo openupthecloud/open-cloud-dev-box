@@ -1,22 +1,5 @@
 tasks:
-  - command: |
-
-      # Setup default variables
-      export AWS_DEFAULT_REGION=us-east-1
-      export AWS_VAULT_BACKEND=file
-      export AWS_VAULT_FILE_PASSPHRASE=
-      brew install aws-vault
-
-      # Install AWS CLI
-      curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip" 
-      sudo mv ./awscliv2.zip /bin
-      sudo unzip /bin/awscliv2.zip -d /bin
-      sudo /bin/aws/install
-
-      # Setup AWS credentials
-      aws-vault add default
-      gp preview $(aws-vault login default) --external
-
+  - command: ./main.sh
 github:
   prebuilds:
     master: true
