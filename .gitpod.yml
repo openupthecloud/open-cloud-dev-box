@@ -14,7 +14,7 @@ tasks:
       sudo /bin/aws/install
 
       # Setup AWS credentials
-      aws-vault add 
+      aws-vault add default
       gp preview $(aws-vault login default) --external
 
 github:
