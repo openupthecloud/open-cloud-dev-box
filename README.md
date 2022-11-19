@@ -22,8 +22,12 @@ Open Cloud Dev Box is configured to work across platform / standards:
 
 ## Backlog / Roadmap 
 
+- [x] Setup AWS CLI and AWS Vault
+- [ ] Setup basic auth flow with AWS + Gitpod
+- [ ] Setup basic auth flow with AWS + Codespaces
+- [ ] Setup basic auth flow with AWS + Local
 - [ ] Wizard Configuration Setup
-- [ ] Authentication flow for AWS
+- [ ] Build base image for devbox
 - [ ] Authentication flow for GCP
 - [ ] Authentication flow for Azure
 - [ ] Install Terraform 
