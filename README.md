@@ -1,6 +1,6 @@
 # Open Cloud Dev Box
 
-![](assets/open-cloud-dev-box-graphic.jpg)
+![Cloud Dev Box Logo](assets/open-cloud-dev-box-graphic.jpg)
 
 ## What? 
 
