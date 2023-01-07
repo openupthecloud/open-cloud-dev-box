@@ -1,5 +1,7 @@
 # Open Cloud Dev Box
 
+![](assets/open-cloud-dev-box-graphic.jpg)
+
 ## What? 
 
 Open Cloud Dev Box is a project that makes learning cloud easier. By having a preconfigured, isolated development environment, you're safe to explore, play and learn the cloud without worrying about breaking your machine. Configured with all the tools you'd need, everything from Terraform 
