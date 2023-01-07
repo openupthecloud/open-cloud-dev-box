@@ -22,7 +22,7 @@ Open Cloud Dev Box is configured to work across platform / standards:
 
 ## Open the project in Gitpod
 
-- [GitPod](https://gitpod.io/#github.com/openupthecloud/open-cloud-dev-box)
+- [Open Cloud Dev Box in Gitpod](https://gitpod.io/#github.com/openupthecloud/open-cloud-dev-box)
 
 ## Backlog / Roadmap 
 
