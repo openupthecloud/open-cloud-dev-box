@@ -20,7 +20,13 @@ Open Cloud Dev Box is configured to work across platform / standards:
 3. [devfile](https://devfile.io)
 4. [Score Dev](https://score.dev)
 
-## Backlog / Roadmap
+
+## Open the project in Gitpod
+
+- [Open Cloud Dev Box in Gitpod](https://gitpod.io/#github.com/openupthecloud/open-cloud-dev-box)
+
+## Backlog / Roadmap 
+
 
 - [x] Setup AWS CLI and AWS Vault
 - [ ] Setup basic auth flow with AWS + Gitpod
