@@ -20,7 +20,7 @@ Open Cloud Dev Box is configured to work across platform / standards:
 3. [devfile](https://devfile.io)
 4. [Score Dev](https://score.dev)
 
-## Test Links
+## Open the project in Gitpod
 
 - [GitPod](https://gitpod.io/#github.com/openupthecloud/open-cloud-dev-box)
 
