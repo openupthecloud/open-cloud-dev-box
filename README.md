@@ -59,3 +59,7 @@ Description: Meet requirements of Andrew Brown's Cloud Bootcamp (see [issue](htt
 - [ ] Add VS Code extensions (https://github.com/openupthecloud/open-cloud-dev-box/issues/17)
 - [ ] Wizard Configuration Setup
 - [ ] Add DevContainer support (https://github.com/openupthecloud/open-cloud-dev-box/issues/18)
+
+### Contribute?
+
+We are looking for contributors, for more information, see [this issue](https://github.com/openupthecloud/open-cloud-dev-box/issues/21).
