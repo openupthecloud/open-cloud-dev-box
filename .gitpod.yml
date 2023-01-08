@@ -18,11 +18,7 @@ tasks:
   - name: Install Terraform
     command: source ./install-terraform.sh
   - name: Install Visual Studio Code extensions
-    command: |
-      code --install-extension ms-python.python
-      code --install-extension aws-toolkit-vscode.aws-toolkit-vscode
-      code --install-extension ms-mssql.mssql
-      code --install-extension amazon-dynamodb.aws-dynamodb-toolkit
+    command: source ./install-vsextensions.sh
 vscode:
   extensions:
     - ms-python.python
