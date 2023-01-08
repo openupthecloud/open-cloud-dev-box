@@ -1,63 +1,60 @@
 # Open Cloud Dev Box
 
+Open Cloud Dev Box is a project that makes learning cloud faster, easier and safer. By having a preconfigured, isolated development environment based in a container, and compatible with various cloud-based development environment services like [Gitpod](http://gitpod.io/) + Codespaces you're safe to explore, play and learn the cloud without worrying about breaking your machine. Additionally, configurations include security best practices and standards. 
 
 ![Cloud Dev Box Logo](assets/open-cloud-dev-box-graphic.jpg)
-
-## What? 
-
-
-
-Open Cloud Dev Box is a project that makes learning cloud easier. By having a preconfigured, isolated development environment, you're safe to explore, play and learn the cloud without worrying about breaking your machine. Configured with all the tools you'd need, everything from Terraform
 
 ## Motivations
 
 1. No more wasted time setting up your environment
-2. No more broken environments
-3. Secure, by default
+2. No more broken environments (isolated environment)
+3. Secure, by default (best practice security)
 4. Extensible and personalisable
 
-## Configurations
+## Getting Started
 
-Open Cloud Dev Box is configured to work across platform / standards:
+- Open in [Gitpod](https://gitpod.io/#github.com/openupthecloud/open-cloud-dev-box)
+- Open in Codespaces (coming soon)
+- Open locally (coming soon)
+
+## Compatibilities
+
+Open Cloud Dev Box is intended to be configured to work across platform / standards:
 
 1. [devcontainer.json](https://code.visualstudio.com/docs/devcontainers/containers)
 2. [.gitpod.yml](https://www.gitpod.io/docs/references/gitpod-yml)
 3. [devfile](https://devfile.io)
 4. [Score Dev](https://score.dev)
 
-
-## Open the project in Gitpod
-
-- [Open Cloud Dev Box in Gitpod](https://gitpod.io/#github.com/openupthecloud/open-cloud-dev-box)
+Allowing you to make use of both cloud-based development environments + local running container-based environments. 
 
 ## Backlog / Roadmap 
 
+### 🏔 Milestone 1: Basic setup for Cloud Bootcamp
+
+Description: Meet requirements of Andrew Brown's Cloud Bootcamp (see [issue](https://github.com/openupthecloud/open-cloud-dev-box/issues/6), and [course outline](https://docs.google.com/document/d/19XMyd5zCk7S9QT2q1_Cg-wvbnBwOge7EgzgvtVCgcz0/edit#heading=h.wkvwyzh618s9)). Other tools can be added in future. 
+
+**Install all necessary tools**
 
 - [x] Setup AWS CLI and AWS Vault
-- [ ] Setup basic auth flow with AWS + Gitpod
-- [ ] Setup basic auth flow with AWS + Codespaces
-- [ ] Setup basic auth flow with AWS + Local
-- [ ] Wizard Configuration Setup
-- [ ] Build base image for devbox
-- [ ] Authentication flow for GCP
-- [ ] Authentication flow for Azure
-- [x] Install Terraform
-- [x] Install kubectl
-- [x] Install AWS CLI
+- [x] Install Terraform (https://github.com/openupthecloud/open-cloud-dev-box/pull/7)
+- [x] Install kubectl (https://github.com/openupthecloud/open-cloud-dev-box/pull/7)
+- [x] Install AWS CLI (https://github.com/openupthecloud/open-cloud-dev-box/pull/7)
+- [ ] Install DynamodDB Local (https://github.com/openupthecloud/open-cloud-dev-box/issues/16)
+
+**Add compatibility across main cloud providers + local**
+- [ ] Add Docker base image support
+- [x] Setup flow with Gitpod
+- [ ] Setup Codespaces compatibility (https://github.com/openupthecloud/open-cloud-dev-box/issues/18)
+- [ ] Setup configuration to work locally with devcontainer (https://github.com/openupthecloud/open-cloud-dev-box/issues/18)
+
+### 🏔 Milestone 2: Improve security posture + developer experience
+
+**Setup secrets management tools**
 - [ ] 1Password secrets integration
+- [ ] AWS Secrets Manager integration
 
-## Contributors
-
-<table>
-  <tbody>
-    <tr>
-      <td> <img src="https://avatars.githubusercontent.com/u/114057462"> <a href="https://github.com/Alechenu56">@Alechenu56</a> </td>
-      <td> <img src="https://avatars.githubusercontent.com/u/59216632"> <a href="https://github.com/kalyankrishnat">@kalyankrishnat</a> </td>
-      <td> <img src="https://avatars.githubusercontent.com/u/42813410"> <a href="https://github.com/keenson">@keenson</a> </td>
-      <td> <img src="https://avatars.githubusercontent.com/u/39441893"> <a href="https://github.com/paulaali">@paulaali</a> </td>
-      <td> <img src="https://avatars.githubusercontent.com/u/5528307"> <a href="https://github.com/loujaybee">@loujaybee</a> </td>
-      <td> <img src="https://avatars.githubusercontent.com/u/79701423"> <a href="https://github.com/prasanth-cloud">@prasanth-cloud</a> </td>
-      <td> <img src="https://github.com/Siddhant-K-code.png"> <a href="https://github.com/Siddhant-K-code">@Siddhant-K-code</a> </td>
-    </tr>
-   </tbody>
-</table>
+**Developer Experience**
+- [ ] Add VS Code extensions (https://github.com/openupthecloud/open-cloud-dev-box/issues/17)
+- [ ] Wizard Configuration Setup
+- [ ] Add DevContainer support (https://github.com/openupthecloud/open-cloud-dev-box/issues/18)
