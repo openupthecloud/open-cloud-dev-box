@@ -41,6 +41,7 @@ Description: Meet requirements of Andrew Brown's Cloud Bootcamp (see [issue](htt
 - [x] Install kubectl (https://github.com/openupthecloud/open-cloud-dev-box/pull/7)
 - [x] Install AWS CLI (https://github.com/openupthecloud/open-cloud-dev-box/pull/7)
 - [ ] Install DynamodDB Local (https://github.com/openupthecloud/open-cloud-dev-box/issues/16)
+- [ ] Install Momento (https://github.com/openupthecloud/open-cloud-dev-box/issues/15)
 
 **Add compatibility across main cloud providers + local**
 - [ ] Add Docker base image support
