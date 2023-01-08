@@ -13,7 +13,7 @@ Open Cloud Dev Box is a project that makes learning cloud faster, easier and saf
 
 ## Getting Started
 
-- Open in [Gitpod](https://gitpod.io/#github.com/openupthecloud/open-cloud-dev-box)
+- [Open in Gitpod](https://gitpod.io/#github.com/openupthecloud/open-cloud-dev-box)
 - Open in Codespaces (coming soon)
 - Open locally (coming soon)
 
