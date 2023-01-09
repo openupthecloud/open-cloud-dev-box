@@ -17,6 +17,8 @@ tasks:
     command: source ./install-kubectl.sh
   - name: Install Terraform
     command: source ./install-terraform.sh
+  - name: Install Dynamodb
+    command: source ./install-dynamodb-local.sh   
 
 github:
   prebuilds:

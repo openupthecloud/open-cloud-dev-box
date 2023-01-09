@@ -6,3 +6,4 @@ source ./setup-env-variables.sh
 ./open-cloud-dashboards.sh
 source ./install-kubectl.sh
 source ./install-terraform.sh
+source ./install-dynamodb-local.sh   
