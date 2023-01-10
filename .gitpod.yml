@@ -21,6 +21,10 @@ tasks:
     command: source ./install-vsextensions.sh
   - name: Install PostgreSQL
     command: source ./install-postgres.sh
+  - name: Install Google Cloud SDK
+    command: |
+      source ./install-google-cloud-sdk.sh
+      gp sync-done gcloud-setup
 vscode:
   extensions:
     - ms-python.python
