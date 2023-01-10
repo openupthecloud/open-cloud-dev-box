@@ -40,7 +40,7 @@ Description: Meet requirements of Andrew Brown's Cloud Bootcamp (see [issue](htt
 - [x] Install Terraform (https://github.com/openupthecloud/open-cloud-dev-box/pull/7)
 - [x] Install kubectl (https://github.com/openupthecloud/open-cloud-dev-box/pull/7)
 - [x] Install AWS CLI (https://github.com/openupthecloud/open-cloud-dev-box/pull/7)
-- [x] Install DynamodDB Local (https://github.com/openupthecloud/open-cloud-dev-box/issues/16)
+- [x] Install DynamodDB Local (https://github.com/openupthecloud/open-cloud-dev-box/pull/24)
 - [x] Install GCP SDK (https://github.com/openupthecloud/open-cloud-dev-box/pull/25)
 - [x] Install PostgreSQL (https://github.com/openupthecloud/open-cloud-dev-box/pull/25)
 - [ ] Install Momento (https://github.com/openupthecloud/open-cloud-dev-box/issues/15)
