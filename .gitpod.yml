@@ -20,7 +20,7 @@ tasks:
   - name: Install Visual Studio Code extensions
     command: source ./install-vsextensions.sh
   - name: Install PostgreSQL
-    command: ./install-postgres.sh
+    command: source ./install-postgres.sh
 vscode:
   extensions:
     - ms-python.python
