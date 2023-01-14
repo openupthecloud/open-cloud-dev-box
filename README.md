@@ -44,7 +44,7 @@ Description: Meet requirements of Andrew Brown's Cloud Bootcamp (see [issue](htt
 - [ ] Install Momento (https://github.com/openupthecloud/open-cloud-dev-box/issues/15)
 
 **Add compatibility across main cloud providers + local**
-- [ ] Add Docker base image support
+- [ ] Add Docker base image support (https://github.com/openupthecloud/open-cloud-dev-box/issues/29)
 - [x] Setup flow with Gitpod
 - [ ] Setup Codespaces compatibility (https://github.com/openupthecloud/open-cloud-dev-box/issues/18)
 - [ ] Setup configuration to work locally with devcontainer (https://github.com/openupthecloud/open-cloud-dev-box/issues/18)
@@ -52,12 +52,12 @@ Description: Meet requirements of Andrew Brown's Cloud Bootcamp (see [issue](htt
 ### 🏔 Milestone 2: Improve security posture + developer experience
 
 **Setup secrets management tools**
-- [ ] 1Password secrets integration
-- [ ] AWS Secrets Manager integration
+- [ ] 1Password secrets integration (https://github.com/openupthecloud/open-cloud-dev-box/issues/27)
+- [ ] AWS Secrets Manager integration (https://github.com/openupthecloud/open-cloud-dev-box/issues/27)
 
 **Developer Experience**
 - [ ] Add VS Code extensions (https://github.com/openupthecloud/open-cloud-dev-box/issues/17)
-- [ ] Wizard Configuration Setup
+- [ ] Wizard Configuration Setup (https://github.com/openupthecloud/open-cloud-dev-box/issues/28)
 - [ ] Add DevContainer support (https://github.com/openupthecloud/open-cloud-dev-box/issues/18)
 
 ### Contribute?
