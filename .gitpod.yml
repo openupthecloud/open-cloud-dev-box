@@ -1,3 +1,4 @@
+image: Dockerfile
 tasks:
   - name: Setup environment variables
     command: |

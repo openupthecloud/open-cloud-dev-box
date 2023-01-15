@@ -1,1 +1,1 @@
-FROM node:16
+FROM gitpod/workspace-full
