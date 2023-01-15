@@ -1,5 +1,6 @@
 {
     "name": "Node.js Sample",
     "dockerFile": "Dockerfile",
-    "postCreateCommand": "echo 'hello world'"
+    "remoteUser": "root",
+    "postCreateCommand": "./main.sh"
 }
