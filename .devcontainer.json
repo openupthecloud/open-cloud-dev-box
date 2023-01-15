@@ -1,5 +1,4 @@
 {
-    "name": "Node.js Sample",
     "dockerFile": "Dockerfile",
     "remoteUser": "root",
     "postCreateCommand": "./main.sh"
