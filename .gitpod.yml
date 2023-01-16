@@ -17,6 +17,8 @@ tasks:
     command: source ./install-kubectl.sh
   - name: Install Terraform
     command: source ./install-terraform.sh
+  - name: Install Dynamodb
+    command: source ./install-dynamodb-local.sh   
   - name: Install Visual Studio Code extensions
     command: source ./install-vsextensions.sh
 vscode:
@@ -24,8 +26,7 @@ vscode:
     - ms-python.python
     - aws-toolkit-vscode.aws-toolkit-vscode
     - ms-mssql.mssql
-    - amazon-dynamodb.aws-dynamodb-toolkit
-    
+    - amazon-dynamodb.aws-dynamodb-toolkit    
 github:
   prebuilds:
     master: true
