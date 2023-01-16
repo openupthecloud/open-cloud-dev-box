@@ -58,7 +58,7 @@ Description: Meet requirements of Andrew Brown's Cloud Bootcamp (see [issue](htt
 - [ ] AWS Secrets Manager integration
 
 **Developer Experience**
-- [ ] Add VS Code extensions (https://github.com/openupthecloud/open-cloud-dev-box/issues/17)
+- [x] Add VS Code extensions (https://github.com/openupthecloud/open-cloud-dev-box/pull/20)
 - [ ] Wizard Configuration Setup
 - [ ] Add DevContainer support (https://github.com/openupthecloud/open-cloud-dev-box/issues/18)
 
