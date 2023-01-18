@@ -39,6 +39,7 @@ Description: Meet requirements of Andrew Brown's Cloud Bootcamp (see [issue](htt
 - [x] Setup AWS CLI and AWS Vault
 - [x] Install AWS CLI (https://github.com/openupthecloud/open-cloud-dev-box/pull/7)
 - [ ] SAM CLI (?)
+- [ ] Honeycomb (?)
 - [ ] Install DynamodDB Local (https://github.com/openupthecloud/open-cloud-dev-box/issues/16)
 - [ ] Install Momento (https://github.com/openupthecloud/open-cloud-dev-box/issues/15)
 
