@@ -37,29 +37,36 @@ Description: Meet requirements of Andrew Brown's Cloud Bootcamp (see [issue](htt
 **Install all necessary tools**
 
 - [x] Setup AWS CLI and AWS Vault
-- [x] Install Terraform (https://github.com/openupthecloud/open-cloud-dev-box/pull/7)
-- [x] Install kubectl (https://github.com/openupthecloud/open-cloud-dev-box/pull/7)
 - [x] Install AWS CLI (https://github.com/openupthecloud/open-cloud-dev-box/pull/7)
 - [x] Install DynamodDB Local (https://github.com/openupthecloud/open-cloud-dev-box/pull/24)
 - [x] Install GCP SDK (https://github.com/openupthecloud/open-cloud-dev-box/pull/25)
 - [x] Install PostgreSQL (https://github.com/openupthecloud/open-cloud-dev-box/pull/25)
+- [ ] SAM CLI (?)
+- [ ] Honeycomb (?)
+- [ ] Install DynamodDB Local (https://github.com/openupthecloud/open-cloud-dev-box/issues/16)
 - [ ] Install Momento (https://github.com/openupthecloud/open-cloud-dev-box/issues/15)
 
 **Add compatibility across main cloud providers + local**
-- [ ] Add Docker base image support
+- [ ] Add Docker base image support (https://github.com/openupthecloud/open-cloud-dev-box/issues/29)
 - [x] Setup flow with Gitpod
 - [ ] Setup Codespaces compatibility (https://github.com/openupthecloud/open-cloud-dev-box/issues/18)
 - [ ] Setup configuration to work locally with devcontainer (https://github.com/openupthecloud/open-cloud-dev-box/issues/18)
 
 ### 🏔 Milestone 2: Improve security posture + developer experience
 
+**Extra installations**
+- [x] Install Terraform (https://github.com/openupthecloud/open-cloud-dev-box/pull/7)
+- [x] Install kubectl (https://github.com/openupthecloud/open-cloud-dev-box/pull/7)
+
 **Setup secrets management tools**
-- [ ] 1Password secrets integration
-- [ ] AWS Secrets Manager integration
+- [ ] 1Password secrets integration (https://github.com/openupthecloud/open-cloud-dev-box/issues/27)
+- [ ] AWS Secrets Manager integration (https://github.com/openupthecloud/open-cloud-dev-box/issues/27)
 
 **Developer Experience**
 - [x] Add VS Code extensions (https://github.com/openupthecloud/open-cloud-dev-box/pull/20)
 - [ ] Wizard Configuration Setup
+- [ ] Add VS Code extensions (https://github.com/openupthecloud/open-cloud-dev-box/issues/17)
+- [ ] Wizard Configuration Setup (https://github.com/openupthecloud/open-cloud-dev-box/issues/28)
 - [ ] Add DevContainer support (https://github.com/openupthecloud/open-cloud-dev-box/issues/18)
 
 ### Contribute?
