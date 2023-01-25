@@ -64,6 +64,29 @@ Description: Meet requirements of Andrew Brown's Cloud Bootcamp (see [issue](htt
 - [ ] Wizard Configuration Setup (https://github.com/openupthecloud/open-cloud-dev-box/issues/28)
 - [ ] Add DevContainer support (https://github.com/openupthecloud/open-cloud-dev-box/issues/18)
 
+### New to Cloud Development Environments? 
+
+If you're new to Cloud Development Environments, what they are, why they exist, why companies use them, the benefits, to see where this project could go in the future, take a look at the following links and resources for some ideas. 
+
+**Definitions**
+
+1. [Cloud development environments (CDEs)](https://www.gitpod.io/cde)
+2. [The year of the Cloud Development Environment](https://redmonk.com/jgovernor/2022/12/01/the-year-of-the-cloud-development-environment/)
+
+**Products**
+
+1. [Microsoft - GitHub’s Engineering Team has moved to Codespaces](https://github.blog/2021-08-11-githubs-engineering-team-moved-)
+2. [Google - Introducing Cloud Workstations: Managed and Secure Development environments in the cloud
+](https://cloud.google.com/blog/products/application-development/introducing-cloud-workstations)
+3. [AWS - Announcing Amazon CodeCatalyst, a Unified Software Development Service](https://aws.amazon.com/blogs/aws/announcing-amazon-codecatalyst-preview-a-unified-software-development-service/)
+4. [JetBrains - How To Get Started With Space Cloud Dev Environments](https://blog.jetbrains.com/space/2022/10/26/get-started-with-space-dev-environments/)
+
+**Companies who “built their own”**
+
+1. [Shopify - Shopifys Cloud Development Journey](https://shopify.engineering/shopifys-cloud-development-journey)
+2. [Slack - Remote Development At Slack](https://slack.engineering/remote-development-at-slack/)
+3. [Uber - DevPod: Improvind Developer Productivity at Uber](https://www.uber.com/blog/devpod-improving-developer-productivity-at-uber/)
+
 ### Contribute?
 
 We are looking for contributors, for more information, see [this issue](https://github.com/openupthecloud/open-cloud-dev-box/issues/21).
