@@ -5,6 +5,7 @@ apt-get update
 apt-get install -y curl unzip wget jq build-essential file git git-lfs sudo 
 
 # JAVA Installation
+echo "Installing Java"
 wget https://download.oracle.com/java/19/latest/jdk-19_linux-x64_bin.deb
 apt-get install -y ./jdk-19_linux-x64_bin.deb 
 update-alternatives --install /usr/bin/java java /usr/lib/jvm/jdk-19/bin/java 1
