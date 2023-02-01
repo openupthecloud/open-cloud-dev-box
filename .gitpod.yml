@@ -1,24 +1,26 @@
+image:
+  file: .gitpod.Dockerfile
 tasks:
-  - name: Setup environment variables
-    command: |
-      source ./setup-env-variables.sh
-      gp sync-done env-setup
-  - name: Install AWS CLI
-    command: |
-      gp sync-await env-setup
-      ./install-aws-cli.sh
-      gp sync-done aws-cli
-  - name: Setup default aws-vault & Open Dashboards
-    command: |
-      gp sync-await aws-cli
-      ./collect-credentials.sh
-      ./open-cloud-dashboards.sh
-  - name: Install kubectl
-    command: source ./install-kubectl.sh
-  - name: Install Terraform
-    command: source ./install-terraform.sh
-  - name: Install Dynamodb
-    command: source ./install-dynamodb-local.sh   
+  # - name: Setup environment variables
+  #   command: |
+  #     source ./setup-env-variables.sh
+  #     gp sync-done env-setup
+  # - name: Install AWS CLI
+  #   command: |
+  #     gp sync-await env-setup
+  #     ./install-aws-cli.sh
+  #     gp sync-done aws-cli
+  # - name: Setup default aws-vault & Open Dashboards
+  #   command: |
+  #     gp sync-await aws-cli
+  #     ./collect-credentials.sh
+  #     ./open-cloud-dashboards.sh
+  # - name: Install kubectl
+  #   command: source ./install-kubectl.sh
+  # - name: Install Terraform
+  #   command: source ./install-terraform.sh
+  # - name: Install Dynamodb
+  #   command: source ./install-dynamodb-local.sh   
   - name: Install Visual Studio Code extensions
     command: source ./install-vsextensions.sh
 vscode:
