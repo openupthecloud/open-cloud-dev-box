@@ -28,5 +28,7 @@ fi
 cd "${OLD_DIR}" || exit 1
 rm -rf "${TMP_DIR}"
 
+# show kubectl version
+kubectl version --client
 echo "kubectl is installed & configured successfully."
 echo "Now, you can start using kubectl."
