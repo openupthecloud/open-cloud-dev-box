@@ -38,6 +38,9 @@ Description: Meet requirements of Andrew Brown's Cloud Bootcamp (see [issue](htt
 
 - [x] Setup AWS CLI and AWS Vault
 - [x] Install AWS CLI (https://github.com/openupthecloud/open-cloud-dev-box/pull/7)
+- [x] Install DynamodDB Local (https://github.com/openupthecloud/open-cloud-dev-box/pull/24)
+- [x] Install GCP SDK (https://github.com/openupthecloud/open-cloud-dev-box/pull/25)
+- [x] Install PostgreSQL (https://github.com/openupthecloud/open-cloud-dev-box/pull/25)
 - [ ] SAM CLI (?)
 - [ ] Honeycomb (?)
 - [ ] Install DynamodDB Local (https://github.com/openupthecloud/open-cloud-dev-box/issues/16)
@@ -60,6 +63,8 @@ Description: Meet requirements of Andrew Brown's Cloud Bootcamp (see [issue](htt
 - [ ] AWS Secrets Manager integration (https://github.com/openupthecloud/open-cloud-dev-box/issues/27)
 
 **Developer Experience**
+- [x] Add VS Code extensions (https://github.com/openupthecloud/open-cloud-dev-box/pull/20)
+- [ ] Wizard Configuration Setup
 - [ ] Add VS Code extensions (https://github.com/openupthecloud/open-cloud-dev-box/issues/17)
 - [ ] Wizard Configuration Setup (https://github.com/openupthecloud/open-cloud-dev-box/issues/28)
 - [ ] Add DevContainer support (https://github.com/openupthecloud/open-cloud-dev-box/issues/18)
