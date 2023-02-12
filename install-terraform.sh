@@ -21,5 +21,7 @@ rm terraform_${TF_VERSION}_linux_amd64.zip
 cd "${OLD_DIR}" || exit 1
 rm -rf "${TMP_DIR}"
 
+# show terraform version
+terraform --version
 echo "Terraform is installed & configured successfully."
 echo "Now, you can start using terraform."
