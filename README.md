@@ -13,9 +13,23 @@ Open Cloud Dev Box is a project that makes learning cloud faster, easier and saf
 
 ## Getting Started
 
-- [Open in Gitpod](https://gitpod.io/#github.com/openupthecloud/open-cloud-dev-box)
-- Open in Codespaces (coming soon)
-- Open locally (coming soon)
+## Getting Started
+
+### With Gitpod
+
+1. Create Gitpod account. 
+2. [Open in Gitpod](https://gitpod.io/#github.com/openupthecloud/open-cloud-dev-box) (Or click: [gitpod.io/#https://github.com/openupthecloud/open-cloud-dev-box](https://github.com/openupthecloud/open-cloud-dev-box))
+3. Type `aws` (or any other supported CLI or tool) into the terminal to verify
+
+### With Codespaces
+
+1. Create a GitHub account
+2. Go to: github.com/codespaces and start a new Codespace based on the project
+3. Type `aws` (or any other supported CLI or tool) into the terminal to verify
+
+### Locally
+
+Coming soon! 
 
 ## Compatibilities
 
